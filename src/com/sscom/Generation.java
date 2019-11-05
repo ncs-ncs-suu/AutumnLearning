@@ -1,9 +1,9 @@
 package com.sscom;
 
-public class Generation {
+class Generation {
     private boolean ok;
 
-    public Generation(){
+    Generation(){
 
     }
 
@@ -13,7 +13,7 @@ public class Generation {
         }
         System.out.println();
     }
-    private void generateBitString(int a[], int n){
+    private void generateBitString(int[] a, int n){
         int i = n;
         while (a[i] == 1) i--;
         if (i==0){
